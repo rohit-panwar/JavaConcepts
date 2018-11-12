@@ -4,6 +4,8 @@ public class P14_Customer {
 
 	public static void main(String[] args) {
 		
+		System.out.println(P14_USGovt.min_bal); // cant change the value
+		
 		System.out.println("******* ICICI Bank Object**********");
 		P14_ICICIBank ic= new P14_ICICIBank();
 		ic.credit(); // Overridden method
@@ -20,6 +22,14 @@ public class P14_Customer {
 		hd.IMPS();
 		hd.transfer();
 		P14_USGovt.NEFT();
+		
+		System.out.println("******* HDFC Bank Object refereed by Imterface ref variable **********");
+		// Dynamic polymarphism, only overiden method will be called
+		P14_USGovt u= new P14_HDFCBank();
+		u.credit();
+		u.debit();
+		u.transfer();
+		//u.imps(); 
 		
 		P14_USGovt us= (P14_USGovt) new P14_Customer();
 		us.credit();

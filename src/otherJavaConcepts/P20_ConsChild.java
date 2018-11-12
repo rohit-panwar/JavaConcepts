@@ -3,7 +3,8 @@ package otherJavaConcepts;
 public class P20_ConsChild extends P20_ConsParent {
 
 	public P20_ConsChild() {
-		super();
+		// only one super can be defined
+		//super();
 		//super(10);
 		System.out.println("In Child Constructor");
 	}

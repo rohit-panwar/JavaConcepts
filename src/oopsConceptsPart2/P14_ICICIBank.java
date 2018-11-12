@@ -1,6 +1,6 @@
 package oopsConceptsPart2;
 
-public class P14_ICICIBank implements P14_USGovt, P14_BrazilGovt {
+public class P14_ICICIBank implements P14_USGovt, P14_BrazilGovt { // is-a relationship
 
 	public void credit() { // Overriden method
 		System.out.println("ICICI : Credit");

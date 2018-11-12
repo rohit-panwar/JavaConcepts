@@ -2,10 +2,12 @@ package otherJavaConcepts;
 
 public class P20_ConstructorThis {
 	
+	// global variable
 	static String name;
 	static int age;
 	
 	public P20_ConstructorThis(String name, int age) {
+		// initialize global variable
 		this.name=name;
 		this.age=age;
 		System.out.println("Name: "+name);

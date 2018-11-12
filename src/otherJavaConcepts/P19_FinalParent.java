@@ -1,6 +1,6 @@
 package otherJavaConcepts;
 
-public class P19_FinalParent {
+public final class P19_FinalParent {
 
 	final int a=100;
 	

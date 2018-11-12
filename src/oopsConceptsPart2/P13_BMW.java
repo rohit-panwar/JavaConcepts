@@ -1,6 +1,6 @@
 package oopsConceptsPart2;
 
-public class P13_BMW extends P13_Car {
+public class P13_BMW extends P13_Car { // has a relationship
 
 	public void start() { // Over-ridden method
 		System.out.println("BMW --- Start");
@@ -8,5 +8,9 @@ public class P13_BMW extends P13_Car {
 	
 	public void theftSafty() {
 		System.out.println("BMW --- TheftSafty");
+	}
+	
+	public void voiceNavigation() {
+		System.out.println("BMW --- Voice-Navigation");
 	}
 }
