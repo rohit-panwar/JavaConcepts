@@ -6,7 +6,7 @@ public class P13_CarTest {
 
 		System.out.println("***** BMW OBJECT REF to BMW *****");
 		P13_BMW b = new P13_BMW();
-		b.start(); // Static polymorphism or Runtime Polymorphism 
+		b.start(); // Static polymorphism or compile time Polymorphism 
 		b.stop();
 		b.refuel();
 		b.theftSafty();

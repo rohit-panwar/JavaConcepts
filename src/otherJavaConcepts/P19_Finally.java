@@ -4,8 +4,8 @@ public class P19_Finally {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 //testFinally1();
-		// testFinally2();
+		 testFinally1();
+		 testFinally2();
 		testFinally3();
 	}
 
