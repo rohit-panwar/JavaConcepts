@@ -29,12 +29,7 @@ public class P14_Customer {
 		u.credit();
 		u.debit();
 		u.transfer();
-		//u.imps(); 
-		
-		P14_USGovt us= (P14_USGovt) new P14_Customer();
-		us.credit();
-		us.debit();
-		us.transfer();		
+		//u.imps(); 	
 	}
 
 }

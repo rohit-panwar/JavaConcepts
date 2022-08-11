@@ -17,30 +17,30 @@ public class Part9_MethodOverloading {
 	}
 	
 	public void sum() {
-		System.out.println("0 Aegument; 0 parameter");
+		System.out.println("0 Argument; 0 parameter");
 	}
 	
 	public void sum(int a) {
-		System.out.println("0 Aegument; int parameter");
+		System.out.println("0 Argument; int parameter");
 	}
 	
 	public void sum(int a, int b) {
-		System.out.println("0 Aegument; int-int parameter");
+		System.out.println("0 Argument; int-int parameter");
 	}
 
 	public void sum(double a) {
-		System.out.println("0 Aegument; double parameter");
+		System.out.println("0 Argument; double parameter");
 	}
 	
 	public void sum(String a) {
-		System.out.println("0 Aegument; string parameter");
+		System.out.println("0 Argument; string parameter");
 	}
 	
 	public void sum(char a) {
-		System.out.println("0 Aegument; char parameter");
+		System.out.println("0 Argument; char parameter");
 	}
 	
 	public void sum(Boolean a) {
-		System.out.println("0 Aegument; boolean parameter");
+		System.out.println("0 Argument; boolean parameter");
 	}
 }

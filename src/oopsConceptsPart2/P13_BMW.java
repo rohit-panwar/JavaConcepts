@@ -13,4 +13,6 @@ public class P13_BMW extends P13_Car { // has a relationship
 	public void voiceNavigation() {
 		System.out.println("BMW --- Voice-Navigation");
 	}
+	
+	int i=200;
 }

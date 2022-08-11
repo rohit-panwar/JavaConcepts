@@ -17,5 +17,7 @@ public class P13_Vehicle {
 	public void theftSafty() {
 		System.out.println("Vehicle --- TheftSafty");
 	}
+	
+	int i=100;
 
 }

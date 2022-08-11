@@ -4,7 +4,7 @@ public interface P14_USGovt {
 
 	int min_bal = 100; // By defaul Static and final. cant change the value
 
-	public void credit();; // Only method declaration required. method defination not required
+	public void credit(); // Only method declaration required. method defination not required
 
 	public void debit();
 

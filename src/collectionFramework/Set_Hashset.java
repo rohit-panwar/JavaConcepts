@@ -15,8 +15,8 @@ public class Set_Hashset {
 		name.add("Rohit");
 		name.add("Ayaansh");
 		name.add("Krrish");
-		//name.add(null); // Only one null it will add. Duplicate will be ignored
-		//name.add(null);
+		name.add(null); // Only one null it will add. Duplicate will be ignored
+		name.add(null);
 		name.add("Harry"); // Duplicate values will be ignored
 		name.add("Harry");
 		name.add("Donald");
