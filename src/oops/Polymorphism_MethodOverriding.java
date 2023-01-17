@@ -2,6 +2,7 @@ package oops;
 
 public class Polymorphism_MethodOverriding {
 
+	// It is also refer as Dynamic Polymorphism or Run time Polymorphism
 	// Overriding can be achieved using inheritance.
 	// Method name should be same 
 	// Arguments should be also same

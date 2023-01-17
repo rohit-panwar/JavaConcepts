@@ -34,7 +34,7 @@ public class Throws {
 	}
 
 	public void saveFile() throws FileNotFoundException, ClassNotFoundException {
-		FileOutputStream fos = new FileOutputStream("C:\save.txt");
+		FileOutputStream fos = new FileOutputStream("C:\\save.txt");
 		Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
 	}
 

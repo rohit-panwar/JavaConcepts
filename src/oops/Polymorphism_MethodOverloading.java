@@ -2,6 +2,7 @@ package oops;
 
 public class Polymorphism_MethodOverloading {
 
+	// It is also refer as Static Polymorphism or Compile time Polymorphism
 	// Overloading will be performed in the same class
 	// Method name should be same
 	// Argument should be different or Sequence should be changed
